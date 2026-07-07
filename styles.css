@@ -1,5 +1,7 @@
 * {
-    margin: none;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .universal-button {
@@ -13,6 +15,21 @@
 
 }
 
+.Outline {
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    padding: 7.5px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.Outline:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #FD6E0A;
+}
+
 .h {
     color: #FD6E0A;
 }
@@ -20,7 +37,7 @@
 /* navigation style */
 .navigation {
     display: flex;
-    padding: 0 100px;
+    padding: 10px 100px;
     justify-content: space-between;
     background-color: #FFF8F3;
     border: 10;
@@ -32,4 +49,41 @@
     gap: 50px;
     list-style: none;
     align-items: center;
+}
+
+.Hero {
+    display: flex;
+    background-color: #FFF8F3;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.hero-text {
+    flex: 1;
+    align-content: center;
+    text-align: left;
+}
+
+.greet {
+    font-size: 40px;
+    color: rgb(68, 65, 65);
+    margin-bottom: 5px;
+}
+
+.My-name {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero-details {
+    color: rgb(68, 65, 65);
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    flex: 2;
+    background-image: url('./images/Group\ 12.png');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
 }
