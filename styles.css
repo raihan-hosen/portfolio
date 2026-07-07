@@ -1,3 +1,35 @@
 * {
     margin: none;
 }
+
+.universal-button {
+    cursor: pointer;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.h {
+    color: #FD6E0A;
+}
+
+/* navigation style */
+.navigation {
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+    border: 10;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
