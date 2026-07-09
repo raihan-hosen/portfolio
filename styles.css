@@ -83,3 +83,51 @@
 .hero-image {
     background-image: url('./images/Group\ 12.png');
 }
+
+.about-box-parent {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 50px;
+    border-radius: 15px;
+    height: 200px;
+    background-color: #FFF8F3;
+
+
+}
+
+.about-text {
+    text-align: center;
+    margin-top: 10px;
+    max-width: 1080px;
+    color: rgb(68, 65, 65);
+
+}
+
+.about {
+    margin-top: 20px;
+}
+
+.about-box {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.my-work-parent {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.what {
+    margin-bottom: 10px;
+}
+
+.my-work {
+    text-align: center;
+    max-width: 800px;
+    justify-content: center;
+}
