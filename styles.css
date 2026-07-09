@@ -165,3 +165,85 @@
     height: auto;
     width: 50px;
 }
+
+/* পুরো সেকশনের ব্যাকগ্রাউন্ড ও স্পেস */
+.resume-section {
+    padding: 80px 100px;
+    background-color: #ffffff;
+    /* আপনার প্রয়োজন অনুযায়ী ব্যাকগ্রাউন্ড কালার দিতে পারেন */
+}
+
+/* মেইন টাইটেল সেন্টারে রাখার জন্য */
+.resume-main-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+/* দুই কলাম পাশাপাশি রাখার জন্য মেইন কন্টেইনার */
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    /* দুই কলামের মাঝখানের গ্যাপ */
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* প্রতিটি কলামের উইডথ সমান রাখা */
+.resume-column {
+    flex: 1;
+}
+
+/* My Education / My Experience হেডিং স্টাইল */
+.column-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+/* প্রতিটি ব্লকের ভেতরের কন্টেন্ট স্টাইল */
+.resume-item {
+    margin-bottom: 25px;
+}
+
+.item-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.item-sub {
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 12px;
+}
+
+.item-desc {
+    font-size: 14px;
+    color: #757575;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* মাঝখানের হালকা দাগের জন্য (Divider) */
+.item-divider {
+    border: none;
+    border-top: 1px solid #E8E8E8;
+    margin-top: 10px;
+}
+
+.Download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Download-button {
+    border-radius: 20px;
+    font-size: 16px;
+}
