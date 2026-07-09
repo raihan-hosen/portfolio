@@ -126,8 +126,42 @@
     margin-bottom: 10px;
 }
 
-.my-work {
+.what-i-do-parent {
+    margin: 60px auto;
     text-align: center;
-    max-width: 800px;
-    justify-content: center;
+    max-width: 1080px;
+}
+
+.what-i-do-card-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 8px; */
+}
+
+.what-i-do-card-container .what-i-do-card {
+    background-color: #FFF8F3;
+    min-height: 250px;
+    max-width: 200px;
+    gap: 0px;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.what-i-do-card-container .what-i-do-card h2 {
+    font-size: large;
+    padding-bottom: 20px;
+
+}
+
+.what-i-do-card-container .what-i-do-card p {
+    color: #757575;
+    font-size: 16px;
+}
+
+.logo {
+    padding: 10px;
+    height: auto;
+    width: 50px;
 }
